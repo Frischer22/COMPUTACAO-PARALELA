@@ -24,7 +24,7 @@ int main(void)
       {
         menor = matriz[i][j];
       }
-      if(matriz[i][j] < menor)
+      if(matriz[i][j] <= menor)
       {
         linha = i;
       }

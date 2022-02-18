@@ -22,8 +22,8 @@ int main(void)
   }
   
   for (i = 1; i <=rows-i+1; i++)
-  { 
-		for (j = 1; j <= rows; j++)
+  {
+	  for (j = 1; j <= rows; j++)
 		{
 			if(j - i >= 0 && j <= rows - i+1)
       {
@@ -35,5 +35,5 @@ int main(void)
       }
     }
     printf("\n");
-	}
+  }
 }

@@ -1,5 +1,19 @@
 #include <stdio.h>
 
+
+void CriaTransposta(int mat[3][4],int matTransp[4][3])
+{
+  int i,j;
+  for (i = 0; i < 3; i++)
+  {
+    for (j = 0; j < 4; j++)
+    {
+      matTransp[j][i] = mat[i][j];
+    }
+  }
+}
+
+
 int main(void)
 {
   int i, j;
@@ -18,14 +32,7 @@ int main(void)
     printf("\n");
   }
 
-
-  for (i = 0; i < 3; i++)
-  {
-    for (j = 0; j < 4; j++)
-    {
-      matTransp[j][i] = mat[i][j];
-    }
-  }
+  CriaTransposta(mat,matTransp);
   
 
   printf("Matriz transposta: \n");

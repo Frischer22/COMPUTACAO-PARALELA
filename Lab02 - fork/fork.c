@@ -11,16 +11,10 @@ int main(int argc , char *argv[] )
 {
 	pid_t pid;
 
-	if (argc != 2)
-	{
-		printf("arg missing or exceeding\n");
-		exit(0);
-	}
-
 	// atoi converte string pra int
 	if ( atoi ( argv[1] ) <0 )
 	{
-		printf("negative number entered %d", atoi(argv[1]));
+		printf("voce entrou com numero negativo");
 		exit(0);
 	}
 
@@ -28,7 +22,7 @@ int main(int argc , char *argv[] )
 
 	if ( pid<0 )
 	{
-		printf("failed to create child\n");
+		printf("falha na criacao de um filho\n");
 		exit(0);
 	}
 

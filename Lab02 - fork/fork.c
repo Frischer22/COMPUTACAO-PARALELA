@@ -1,5 +1,8 @@
 // Bruno Frischer TIA: 32046235
 // Gustavo Eizono Cruz TIA: 32012403
+
+//Código baseado no site https://www.geeksforgeeks.org/factorial-calculation-using-fork-c-linux/
+
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/wait.h>

@@ -1,0 +1,10 @@
+Nome: Vitu, Idade: 19, Altura: 5.00
+Nome: Pedro, Idade: 13, Altura: 2.20
+Nome: Joao, Idade: 21, Altura: 1.80
+Nome: Abel, Idade: 23, Altura: 1.70
+Nome: Gusta, Idade: 19, Altura: 1.68
+Nome: Ana, Idade: 32, Altura: 1.67
+Nome: Maria, Idade: 15, Altura: 1.60
+Nome: Joana, Idade: 40, Altura: 1.60
+Nome: Jamil, Idade: 80, Altura: 1.50
+Nome: Barbie, Idade: 50, Altura: 1.40

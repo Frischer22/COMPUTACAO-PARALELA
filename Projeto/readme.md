@@ -8,4 +8,4 @@
 Este é o nosso algoritmo para o projeto de Computação paralela, estamos usando Python e pretendemos otimizá-lo cada vez mais paralelamente
 ## Versão 1.0
 - `Grafo de dependências`: Na primeira versão, fizemos algo simples para apenas executar de fato, o algoritmo em sua forma mais "bruta", nosso grafo, por se tratar ainda de um programa sequencial, ficará da seguinte maneira: </br>
-![alt text](https://i.ytimg.com/vi/UozK0CWqPEQ/maxresdefault.jpg)
+![alt text](https://media.discordapp.net/attachments/727245932306890774/968971695329255485/unknown.png)

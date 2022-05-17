@@ -14,7 +14,7 @@ parametro = 1000
 
 soma = 0
 for i in range(1,parametro+1):
-    futures.append(pool.submit(taylor, sema,i,soma))
+    futures.append(pool.submit(taylor,i,soma))
 
 
 for i in as_completed(futures):

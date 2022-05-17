@@ -15,5 +15,4 @@ Este é o nosso algoritmo para o projeto de Computação paralela, estamos usand
 
 ## Versão 3.0
 - `Segundo Speed-up`: Na terceira implementação, começamos a usar a biblioteca para deixar a função de taylor assíncrona, assim podemos planejamos utilizar uma opção mais viável em Python, que se mostrou um linguagem de programação que a paralelização para este problema não se demonstra muito efetiva, considerando o speedup anterior e **o Speedup para esta versão: 0.00373543397913043626597**. </br>
-![image](https://user-images.githubusercontent.com/64294820/168917420-81d3fb89-dcc4-4cfe-92f0-29753e425d6c.png)
-
+![image](https://user-images.githubusercontent.com/64294820/168917868-f4d077f4-d705-4164-b618-449b4e108e08.png)

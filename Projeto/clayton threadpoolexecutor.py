@@ -1,7 +1,8 @@
+#from concurrent.futures import ProcessPoolExecutor, as_completed
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 num_threads = 4
-pool = ThreadPoolExecutor(num_threads)
+pool = ProcessPoolExecutor(num_threads)
 
 def taylor(param,soma):
     soma += (1/param)

@@ -3,8 +3,7 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 
 soma = 0.0
 
-def taylor(param,IdThread):
-    print(IdThread)
+def taylor(param):
     soma = (1/param)
     return soma
 

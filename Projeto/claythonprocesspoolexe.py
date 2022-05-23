@@ -12,7 +12,7 @@ if __name__ == '__main__':
     futures = []
     with ProcessPoolExecutor(max_workers=4) as pool:
         for i in range(1,100+1):
-            futures.append(pool.submit(taylor,i,max_workers))
+            futures.append(pool.submit(taylor,i))
     for i in futures:
         soma += i.result()
 
